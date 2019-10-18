@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<GenRoBag>
+	<db dbname="diveinto"/>
+
+	<packages>
+		<gnrcore_adm pkgcode="gnrcore:adm"/>
+		<gnr_it_glbl pkgcode="gnr_it:glbl"/>
+		<base pkgcode="base"/>
+	</packages>
+
+	<authentication pkg="gnrcore:adm">
+		<py_auth defaultTags="user" method="authenticate" pkg="adm"/>
+	</authentication>
+</GenRoBag>
